@@ -34,18 +34,23 @@ else:
 """ x = "test"
 print(f"hello {x}")
  """
-""" 
-temp = 75
+
+""" temp = 75
 if temp > 68:
     print('warm')
 elif temp == 68:
     print('perfect')
 else:
-    print('cold') """
+    print('cold')
+ """
 
-
-
-
+def check_even_odd():
+    number = int(input("enter a number: "))
+    if number % 2 == 0:
+        print(f"{number} is Even")
+    else:
+        print(f"{number} is Odd")
+check_even_odd()
 
 
 
