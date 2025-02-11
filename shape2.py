@@ -43,16 +43,46 @@ elif temp == 68:
 else:
     print('cold')
  """
-
-def check_even_odd():
-    number = int(input("enter a number: "))
+#finding odd and even numbers
+""" def check_even_odd():
+    number = int(input("number:"))
     if number % 2 == 0:
-        print(f"{number} is Even")
+        print("Even")
     else:
-        print(f"{number} is Odd")
-check_even_odd()
+        print("Odd")
+check_even_odd() """
+
+def calculate_tip(bill, service_rating):
+    # Set the tip percentages for different service ratings
+    if service_rating == "bad":
+        tip_percentage = 0
+    elif service_rating == "okay":
+        tip_percentage = 0.15
+    elif service_rating == "good":
+        tip_percentage = 0.20
+    elif service_rating == "great":
+        tip_percentage = 0.25
+    else:
+        print("Sorry, that service rating is not valid.")
+        return
+
+    # Calculate the tip amount
+    tip = bill * tip_percentage
+
+    # Show the results
+    print(f"Your bill: ${bill:.2f}")
+    print(f"Service rating: {service_rating.capitalize()}")
+    print(f"Your tip: ${tip:.2f}")
+    print(f"Total bill with tip: ${bill + tip:.2f}")
+
+# Ask the user for the bill amount and service rating
+bill = float(input("Enter the bill amount: $"))
+service_rating = input("How was the service? (bad, okay, good, great): ").lower()
+
+calculate_tip(bill, service_rating)
 
 
+    
 
 
 
