@@ -71,7 +71,7 @@ def calculate_tip(bill, service_rating):
 
     # Show the results
     print(f"Your bill: ${bill:.2f}")
-    print(f"Service rating: {service_rating.capitalize()}")
+    print(f"Service rating: {service_rating}")
     print(f"Your tip: ${tip:.2f}")
     print(f"Total bill with tip: ${bill + tip:.2f}")
 
