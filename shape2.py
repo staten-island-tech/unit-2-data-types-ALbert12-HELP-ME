@@ -52,7 +52,7 @@ else:
         print("Odd")
 check_even_odd() """
 
-def calculate_tip(bill, service_rating):
+""" def calculate_tip(bill, service_rating):
     # Set the tip percentages for different service ratings
     if service_rating == "bad":
         tip_percentage = 0
@@ -79,10 +79,7 @@ def calculate_tip(bill, service_rating):
 bill = float(input("Enter the bill amount: $"))
 service_rating = input("How was the service? (bad, okay, good, great): ").lower()
 
-calculate_tip(bill, service_rating)
-
-
-    
+calculate_tip(bill, service_rating) """
 
 
 
