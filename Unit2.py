@@ -105,3 +105,22 @@ def GCF(x,y):
     else:
         print("not available")  """
 
+def print_factors(x):
+    print("the factors of",x, "are:")
+    for i in range (1, x + 1):
+        if x % i ==0:
+            print(i)
+
+num=60
+
+print_factors(num)
+
+def print_factor(y):
+    print("the factors of",y, "are")
+    for i in range(1, y + 1):
+        if y % i ==0:
+            print(i)
+
+num = 320
+
+print_factors(num)
