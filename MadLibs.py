@@ -12,4 +12,4 @@ celebrity = input("Enter the name of a celebrity:")
 
 MadLibs = f" Hello {name} Welcome to {celebrity} little playhouse come and {verb1}. Ummmm wait {number}{noun1} is {verb2} and {noun2}is {verb3} can you {verb4} us? Great you are going to {verb4} no mater what {verb5}. Well we got a new little {noun3} specimen "
 
-print (MadLibs)
+print (MadLibs)  
